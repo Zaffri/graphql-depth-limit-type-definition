@@ -4,7 +4,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
-declare function depthLimit(depthLimit: number, options?: depthLimit.Options, callback?: (obj: any) => void): any;
+declare function depthLimit(depthLimit: number, options?: depthLimit.Options, callback?: (obj: any) => void, customError?: string): any;
 export = depthLimit;
 
 declare namespace depthLimit {
